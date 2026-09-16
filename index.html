@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8eee5">
+  <meta name="description" content="A little place full of letters, memories, and love. Just for you.">
+  <title>A Little Place · Just for You ♡</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="intro-open">
+  <section class="intro night-sky" id="intro" aria-labelledby="intro-title">
+    <div class="stars" aria-hidden="true"></div><div class="moon" aria-hidden="true"></div>
+    <div class="intro-cloud cloud-one" aria-hidden="true"></div><div class="intro-cloud cloud-two" aria-hidden="true"></div>
+    <div class="mountains mountain-back" aria-hidden="true"></div><div class="mountains mountain-front" aria-hidden="true"></div>
+    <div class="intro-content"><span class="eyebrow">A LITTLE SOMETHING, JUST FOR YOU</span><h1 id="intro-title"></h1><p id="intro-copy"></p><button class="button" id="open-site">Open it <span>♡</span></button></div>
+    <p class="intro-bottom handwritten" id="intro-bottom"></p><span class="intro-coordinate" aria-hidden="true">you + me, under the same sky</span>
+  </section>
+
+  <div id="website" inert>
+    <header class="site-header">
+      <a href="#home" class="brand"><span class="brand-heart">♡</span><span>A Little Place<small>Just for You ♡</small></span></a>
+      <nav aria-label="Main navigation"><a class="active" href="#home">Home</a><a href="#notes">Notes</a><a href="#memories">Memories</a><a href="#letters">Open When</a><a href="#about">About You</a></nav>
+      <button class="music-toggle" id="music-toggle" aria-label="Open music player" aria-expanded="false" aria-controls="music-player">♫</button>
+    </header>
+
+    <aside class="music-player" id="music-player" aria-label="Music player" hidden>
+      <div class="player-heading"><span class="handwritten">Our Song ♡</span><button id="close-player" class="icon-button" aria-label="Close music player">×</button></div>
+      <input id="song-progress" type="range" min="0" max="100" value="0" aria-label="Song progress">
+      <div class="song-time"><span id="current-time">0:00</span><span id="duration">0:00</span></div>
+      <button class="play-button" id="play-song" aria-label="Play song">▶</button>
+      <div class="volume-row"><button id="mute-song" class="icon-button" aria-label="Mute song">♪</button><input id="volume" type="range" min="0" max="1" step="0.01" value="0.5" aria-label="Volume"></div>
+      <p id="music-status" role="status">Because everything<br>sounds better with you ♡</p>
+    </aside>
+    <audio id="song" preload="none" loop></audio>
+
+    <main>
+      <section id="home" class="home-section">
+        <div class="desk-scene">
+          <div class="hero-note paper"><span class="tape" aria-hidden="true"></span><span class="eyebrow">TO MY FAVOURITE PERSON</span><h2 id="welcome-title"></h2><p id="welcome-copy" class="handwritten"></p><span class="note-signature handwritten" id="welcome-signature"></span><span class="paper-heart" aria-hidden="true">♡</span></div>
+          <p class="desk-whisper handwritten" id="desk-whisper"></p>
+          <span class="desk-label">a little corner of the world, just ours</span>
+        </div>
+        <div class="chapter-cards">
+          <a href="#letters"><span class="card-icon envelope-icon">✉</span><h3>Open When...</h3><p>Letters for different<br>moments</p><span class="card-arrow">↗</span></a>
+          <a href="#notes"><span class="card-icon mini-jar" aria-hidden="true"><i></i></span><h3>Little Notes</h3><p>Pick a note,<br>anytime</p><span class="card-arrow">↗</span></a>
+          <a href="#memories"><span class="card-icon photo-icon">▧</span><h3>Our Memories</h3><p>A few of my<br>favourite moments</p><span class="card-arrow">↗</span></a>
+          <a href="#about"><span class="card-icon">♡</span><h3>Things I Love</h3><p>Because you're<br>amazing</p><span class="card-arrow">↗</span></a>
+          <a href="#last"><span class="card-icon">☾</span><h3>One Last Thing</h3><p>A little message<br>before you go</p><span class="card-arrow">↗</span></a>
+        </div>
+        <div class="section-divider"><span></span><p class="handwritten">made with love, kept here for you</p><span></span></div>
+      </section>
+
+      <section id="letters" class="content-section letters-section reveal">
+        <div class="section-heading"><span class="eyebrow">01 / A LITTLE EXTRA LOVE</span><h2><span aria-hidden="true">✉</span> Open When...</h2><p>For the moments you need a little extra love. ♡</p></div>
+        <div class="envelope-grid" id="envelope-grid"></div>
+        <p class="section-postscript handwritten" id="letters-postscript"></p>
+      </section>
+
+      <section id="notes" class="content-section notes-section reveal">
+        <div class="notes-intro"><span class="eyebrow">02 / THE LITTLE THINGS</span><h2>Little Notes<br>for You <span>♡</span></h2><p>Pick a note whenever you need a smile.</p><p class="handwritten notes-aside">A whole jar of reasons<br>you make my heart happy.</p><button class="button" id="pick-note">Pick a note ♡</button></div>
+        <div class="jar-scene"><span class="jar-doodle doodle-one" aria-hidden="true">♡</span><span class="jar-doodle doodle-two" aria-hidden="true">♡</span><div class="jar" id="jar"><div class="jar-lid"></div><div class="jar-neck"></div><div class="jar-body"><div class="folded-notes" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="jar-label handwritten">Good Things<br>About You ♡</div></div><div class="jar-ribbon" aria-hidden="true">୨୧</div><span class="flying-note" aria-hidden="true">♡</span></div><div class="jar-shadow"></div></div>
+        <div id="picked-note" class="picked-note" hidden><span class="tape" aria-hidden="true"></span><span class="eyebrow">A LITTLE REMINDER</span><p class="handwritten" id="note-message" aria-live="polite"></p><span class="note-heart" aria-hidden="true">♡</span></div>
+      </section>
+
+      <section id="memories" class="content-section memories-section reveal"><div class="section-heading"><span class="eyebrow">03 / OUR FAVOURITE CHAPTERS</span><h2>Our Little Memories</h2><p>Some of my favourite moments with you. ♡</p></div><div class="memory-grid" id="memory-grid"></div><p class="handwritten section-postscript">And my favourite part? We're still making more.</p></section>
+
+      <section id="about" class="content-section about-section reveal"><div class="section-heading"><span class="eyebrow">04 / IT'S ALWAYS BEEN YOU</span><h2><span aria-hidden="true">♡</span> Things I Love About You</h2><p>Just a few (okay, a lot) of the reasons. ♡</p></div><div class="love-layout"><div class="love-list" id="love-list"></div><aside class="love-sticky handwritten"><span class="tape" aria-hidden="true"></span><p id="love-sticky"></p><span class="flower-doodle" aria-hidden="true">❀<br>╱│</span></aside></div></section>
+
+      <section id="last" class="last-section night-sky reveal"><div class="stars" aria-hidden="true"></div><div class="moon" aria-hidden="true"></div><div class="last-invitation" id="last-invitation"><span class="eyebrow">05 / BEFORE YOU GO</span><h2>One Last Thing...</h2><p class="handwritten">Click this before you leave. ♡</p><button class="button" id="show-final">Click me ♡</button><small class="handwritten">You mean everything to me. ♡</small></div><div class="final-message handwritten" id="final-message" hidden></div><div class="glowing-hearts" id="glowing-hearts" aria-hidden="true"></div></section>
+    </main>
+    <footer><p class="handwritten" id="footer-main"></p><p id="footer-copy"></p><button class="secret-heart" id="secret-heart" aria-label="A tiny heart">♡</button><span class="footer-mark">MADE WITH LOVE · JUST FOR YOU</span></footer>
+  </div>
+  <dialog id="letter-dialog" class="letter-dialog"><button class="modal-close" aria-label="Close letter">×</button><article class="letter-paper"><span class="eyebrow">SEALED WITH LOVE</span><h2 id="letter-title"></h2><div id="letter-content" class="handwritten"></div><span class="letter-stamp" aria-hidden="true">♡<small>always yours</small></span></article></dialog>
+  <dialog id="memory-dialog" class="memory-dialog"><button class="modal-close" aria-label="Close memory">×</button><div id="lightbox-image"></div><h2 id="lightbox-title"></h2><p id="lightbox-date"></p><p id="lightbox-caption" class="handwritten"></p></dialog>
+  <dialog id="secret-dialog" class="secret-dialog"><button class="modal-close" aria-label="Close surprise">×</button><div class="handwritten" id="secret-message"></div><span class="secret-big-heart" aria-hidden="true">♡</span></dialog>
+  <noscript><div class="noscript-message">This little scrapbook needs JavaScript to open its letters. Please enable it in your browser. ♡</div></noscript>
+</body>
+</html>
