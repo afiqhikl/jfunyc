@@ -9,7 +9,7 @@ const SCRAPBOOK = {
   introTitle: 'Hey, I made\nsomething for you.',
   introCopy: "It's nothing fancy...\nbut it's yours. ♡",
   introBottom: 'Good things are better with you ♡',
-  welcomeTitle: 'Welcome, {name} ♡',
+  welcomeTitle: 'Welcome, Sayang ♡',
   welcomeCopy: "Thank you for being you.\nThis is a little place I made,\nfilled with some of the reasons\nI'm so lucky to have you. ♡",
   welcomeSignature: 'With all my love, always.',
   deskWhisper: 'You make life\nso much\nsweeter ♡',
