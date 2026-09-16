@@ -4,12 +4,12 @@
 // Change her name, your messages, and the music path in this one object.
 // {name} in any message is replaced with girlfriendName.
 const SCRAPBOOK = {
-  girlfriendName: 'my love', // Change this to your girlfriend's name.
+  girlfriendName: 'Sayang', // Change this to your girlfriend's name.
   music: 'music/our-song.mp3', // Put your own song at this path.
   introTitle: 'Hey, I made\nsomething for you.',
   introCopy: "It's nothing fancy...\nbut it's yours. ♡",
   introBottom: 'Good things are better with you ♡',
-  welcomeTitle: 'Welcome, Sayang ♡',
+  welcomeTitle: 'Welcome, {name} ♡',
   welcomeCopy: "Thank you for being you.\nThis is a little place I made,\nfilled with some of the reasons\nI'm so lucky to have you. ♡",
   welcomeSignature: 'With all my love, always.',
   deskWhisper: 'You make life\nso much\nsweeter ♡',
