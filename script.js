@@ -10,8 +10,8 @@ const SCRAPBOOK = {
   introCopy: "It's nothing fancy...\nbut it's yours. ♡",
   introBottom: 'Good things are better with you ♡',
   welcomeTitle: 'Welcome, {name} ♡',
-  welcomeCopy: "Thank you for being you.\nThis is a little place I made,\nfilled with some of the reasons\nI'm so lucky to have you. ♡",
-  welcomeSignature: 'With all my love, always.',
+  welcomeCopy: "Thank you for being you.\nThis is a little place I made,\nfilled with some of unexlpainable feelings\nI'm so lucky to have you. ♡",
+  welcomeSignature: 'Can you be my sayang?.',
   deskWhisper: 'You make life\nso much\nsweeter ♡',
   lettersPostscript: "No matter the moment,\nI'm always here for you. ♡",
   loveSticky: "I'm so lucky\nyou're you ♡",
@@ -20,67 +20,65 @@ const SCRAPBOOK = {
   secret: 'You found\nthe secret one 👀\n\nI love you more than\nthis website has bugs.',
   letters: [
     { title: 'When you miss me', color: '#f3c8c9', seal: '#c67e89', paragraphs: [
-      'Hey you,',
+      '{name},',
       "If you're reading this, it probably means you miss me, and honestly, I probably miss you too.",
-      "I just want you to know that no matter how far we are, you're always on my mind. You're a huge part of my happiness, and I'm so grateful for you.",
+      "I just want you to know that no matter how far we are, awak selalu on my mind. You're a my happiness, and I'm so grateful for having you.",
       "Until we see each other again, remember — you're always with me, in my thoughts, in my heart, and in everything I do. ♡",
       'I miss you, always. ♡'
     ] },
     { title: "When you're sad", color: '#cdd1e3', seal: '#7b86af', paragraphs: [
-      'My sweet {name},',
-      "You don't have to put on a brave face with me. Some days feel heavy, and it's okay to let yourself feel them.",
-      "If I could, I'd wrap you in the biggest hug, make you something warm, and sit with you until the world felt a little softer.",
-      "You don't have to find the right words. You don't have to fix everything today. Take a little breath. Let this be one small place where you can just be.",
+      '{name},',
+      "Some days feel heavy, and it's okay to let yourself feel them.",
+      "If I can, I wrap you in the my hug, make you hot tea, and lay down with you until you felt a little softer.",
+      "Take a little breath. this is the place untuk awak tenang kan diri.",
       "I'm here, through the cloudy days too. ♡"
     ] },
     { title: 'When you overthink', color: '#d9dec3', seal: '#8a9673', paragraphs: [
-      'Hey, beautiful mind,',
-      "I know your thoughts can get a little loud sometimes. Come back to this moment with me. Relax your shoulders. Take one slow breath.",
-      "You don't need to have tomorrow figured out tonight. And you don't have to be perfect to be loved by me.",
-      "Please don't forget the things I know about you: you care deeply, you try so hard, and your heart is a wonderful place.",
-      "One thing at a time, my love. We're on the same team. ♡"
+      '{name},',
+      "I know your thoughts can get a little loud sometimes. Come back to this moment with me. Tenangkan diri. bernafas slowly.",
+      "Sayang jangan sedih, gaduh macam mana pun kita, saya selalu back to you.",
+      "I know you love me deeply, and please know that i love the way you love me.",
+      "One thing at a time, my bucuk. ♡"
     ] },
     { title: 'When you feel unloved', color: '#e0c5df', seal: '#ac79aa', paragraphs: [
-      'Oh, my love,',
+      '{name},',
       'If your heart needs a reminder today, let this be it: you matter so much to me.',
-      "Not because of what you do for anyone. Not because you always have the right answer. Just because you're you.",
-      "I love the big, bright parts of you and the quiet parts you don't always show. There is no version of a difficult day that makes you less worthy of kindness.",
-      'You are loved, even in the moments you forget. Especially then. ♡'
+      "Not because of what you do for me. Because you're you.",
+      'You are loved, even in the moments you forget. ♡'
     ] },
     { title: "When you can't sleep", color: '#f0d6bf', seal: '#c48e79', paragraphs: [
-      'Hello, my little night owl,',
-      "If I were beside you, I'd hold your hand and tell you about all the ordinary little things I'm looking forward to doing with you.",
-      'Another coffee. Another walk with nowhere to go. Another evening of laughing about absolutely nothing.',
-      "For now, get comfortable and let the day be done. There's nothing you need to prove to the moon tonight.",
-      "Rest your lovely mind. I'll be thinking of you under the same sky. Sweet dreams. ♡"
+      '{name},',
+      "If I beside you, I'd hold your hand and tell you about all the little things I'm looking forward to doing with you.",
+      'Another coffee but tak boleh selalu. Another walk with nowhere to go.',
+      "Rest your mind. Sweet dreams. ♡"
     ] },
     { title: 'When you need a reminder', color: '#f4d0b4', seal: '#c88970', paragraphs: [
-      'Just in case you forgot,',
-      "I'm proud of you. Of the way you keep trying, of the kindness you choose, and of all the little things you do that you think nobody notices.",
-      'I notice. And I hope you give yourself a little of the gentleness you give everyone else.',
-      "You make ordinary days feel like something worth remembering. My life is warmer and happier with you in it.",
-      "I'd choose you again. On the easy days, on the messy days, and on all the days in between. ♡"
+      // '{name},',
+      // "I'm proud of you. Of the way you keep trying, of the kindness you choose, and of all the little things you do",
+      // 'I hope you give yourself a little of the gentleness you give everyone else.',
+      // "My life is warmer and happier with you in it.",
+      // "I'd choose you again and again and again. On the easy days, on the messy days, and on all the days we going through. ♡"
     ] }
   ],
-  notes: [
-    'You make ordinary days feel special. ♡', "I'm really lucky to have you.",
-    'You are one of my favourite parts of every day.', 'I hope you know how loved you are.',
-    'Life feels a little softer with you in it.', "I'd still choose you.",
-    'Thank you for being you.', 'You make my world a little brighter.'
-  ],
-  reasons: [
-    'The way you get excited when telling me something', 'Your random voice notes',
-    "How comfortable life feels when I'm with you", 'Your kindness, even in little things',
-    'The way you care about the people you love', 'Your beautiful smile',
-    'How you always try your best', 'The way you make ordinary days feel special',
-    'You, just the way you are', 'And so much more... ♡'
-  ],
-  finalMessage: [
-    "I don't always know how to say these things out loud.", 'So I made this instead.',
-    'I hope whenever you come back here,', "you're reminded that somewhere in this world,",
-    "there's someone who's really happy that you exist.", 'And that someone is me. ♡',
-    'I love you. Always. ♡'
-  ]
+  // notes: [
+  //   'You make ordinary days feel special. ♡', "I'm really lucky to have you.",
+  //   'You are one of my favourite parts of every day.', 'I hope you know how loved you are.',
+  //   'Life feels a little softer with you in it.', "I'd still choose you.",
+  //   'Thank you for being you.', 'You make my world a little brighter.'
+  // ],
+  // reasons: [
+  //   'The way you get excited when telling me something', 'Your random voice notes',
+  //   "How comfortable life feels when I'm with you", 'Your kindness, even in little things',
+  //   'The way you care about the people you love', 'Your beautiful smile',
+  //   'How you always try your best', 'The way you make ordinary days feel special',
+  //   'You, just the way you are', 'And so much more... ♡'
+  // ],
+  // finalMessage: [
+  //   "I don't always know how to say these things out loud.", 'So I made this instead.',
+  //   'I hope whenever you come back here,', "you're reminded that somewhere in this world,",
+  //   "there's someone who's really happy that you exist.", 'And that someone is me. ♡',
+  //   'I love you. Always. ♡'
+  // ]
 };
 
 // ♥ YOUR PHOTOS: change image paths, titles, dates, and captions here.
